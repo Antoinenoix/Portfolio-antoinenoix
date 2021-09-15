@@ -1,0 +1,37 @@
+.main {
+  background-image: url("src/assets/BGR.jpg");
+  color: rgb(95, 177, 129);
+  padding-top: 30px;
+  height: 100vh;
+  &_title {
+    text-shadow: 0 0 2px white;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 6rem;
+  }
+  &_img {
+    z-index: 0;
+    width: 30%;
+    margin-top: 0;
+    position: fixed;
+    bottom: 0;
+    right: 15rem;
+  }
+  &_container {
+  }
+  &_text {
+    color: black;
+    font-size: 3rem;
+    width: 350px;
+    margin-top: 340px;
+    margin-left: 190px;
+    padding-bottom: 500px;
+    &_prez {
+      font-size: 2rem;
+    }
+  }
+
+}
+
